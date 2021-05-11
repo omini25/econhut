@@ -1,0 +1,928 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Econhut - Business Development, Market Reserch, Surveys</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Offering Business Development, Market Reserch, and Survey services in Africa" />
+    <meta name="keywords" content="Business development, Market Reserch, Surveys" />
+    <meta name="author" content="Econhut" />
+    <meta name="email" content="hello@econhut.com" />
+    <meta name="website" content="https://econhut.com" />
+    <meta name="Version" content="v1.0" />
+    <!-- favicon -->
+    <link rel="shortcut icon" href="images\Images\favicon.ico">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <!-- Icons -->
+    <link href="css/materialdesignicons.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/line.css">
+    <!-- Slider -->
+    <link rel="stylesheet" href="css/tiny-slider.css" />
+    <!-- Main Css -->
+    <link href="css/style.css" rel="stylesheet" type="text/css" id="theme-opt" />
+    <link href="css/colors/default.css" rel="stylesheet" id="color-opt">
+
+</head>
+
+<body>
+    <!-- Loader -->
+    <div id="preloader">
+        <div id="status">
+            <div class="spinner">
+                <div class="double-bounce1"></div>
+                <div class="double-bounce2"></div>
+            </div>
+        </div>
+    </div>
+    <!-- Loader -->
+
+    <!-- Navbar STart -->
+    <header id="topnav" class="defaultscroll sticky">
+        <div class="container">
+            <!-- Logo container-->
+            <a class="logo" href="index.html">
+                <img src="images\Images\econhut logo light.png" height="40" class="logo-light-mode" alt="">
+                <img src="images\Images\econhut logo light.png" height="40" class="logo-dark-mode" alt="">
+            </a>
+            <div class="buy-button">
+                <a href="index.html" data-bs-toggle="modal" data-bs-target="#ContactForm" class="btn btn-primary">Request a service</a>
+                </a>
+            </div>
+            <!--end button-->
+            <!-- End Logo container-->
+            <div class="menu-extras">
+                <div class="menu-item">
+                    <!-- Mobile menu toggle-->
+                    <a class="navbar-toggle" id="isToggle" onclick="toggleMenu()">
+                        <div class="lines">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </a>
+                    <!-- End mobile menu toggle-->
+                </div>
+            </div>
+
+            <div id="navigation">
+                <!-- Navigation Menu-->
+                <ul class="navigation-menu">
+                    <li><a href="business-development.html" class="sub-menu-item">Business Development</a></li>
+
+                    <li><a href="market-research.html" class="sub-menu-item">Market Reserch</a></li>
+
+                    <li class="has-submenu parent-menu-item">
+                        <a href="javascript:void(0)">Survey</a><span class="menu-arrow"></span>
+                        <ul class="submenu">
+                            <li><a href="survey-client.html" class="sub-menu-item">Create A Survey</a></li>
+                            <li><a href="customer-survey.html" class="sub-menu-item">Take A Survey</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="pricing.html" class="sub-menu-item">Pricing</a></li>
+
+                </ul>
+                <!--end navigation menu-->
+                <div class="buy-menu-btn d-none">
+                    <a href="index.html" data-bs-toggle="modal" data-bs-target="#ContactForm" class="btn btn-primary">Request a service</a>
+                </div>
+                <!--end login button-->
+            </div>
+            <!--end navigation-->
+        </div>
+        <!--end container-->
+    </header>
+    <!--end header-->
+    <!-- Navbar End -->
+
+    <!-- Hero Start -->
+    <section class="bg-half-170 d-table w-100">
+        <div class="container">
+            <div class="row mt-4 align-items-center">
+                <div class="col-lg-6 col-md-6">
+                    <div class="title-heading me-lg-4">
+                        <h1 class="heading fw-bold mb-3">Help your <span class="text-primary text-decoration-underline typewrite" data-period="2000" data-type='[ "Idea", "Business", "Startup", "SME" ]'> <span class="wrap"></span> </span> <br> Grow up to a high level</h1>
+                        <p class="para-desc text-muted">We draw up business plans for individuals who want to go into a business venture, provide the research services for any field of business of your chioce and also product market validation.</p>
+                        <div class="mt-4">
+                            <a href="services.html" class="btn btn-primary mt-2 me-2"> View our services</a>
+                            <a href="documentation.html" class="btn btn-outline-primary mt-2"> Talk to an expert</a>
+                        </div>
+                    </div>
+                </div>
+                <!--end col-->
+
+                <div class="col-lg-6 mt-5 pt-2 mt-lg-0 pt-lg-0">
+                    <div class="px-2 position-relative">
+                        <img src="images\Images\hero.png" class="img-fluid img-fluid mover mx-auto d-block" alt="">
+                    </div>
+                </div>
+                <!--end col-->
+            </div>
+            <!--end row-->
+        </div>
+        <!--end container-->
+    </section>
+    <!--end section-->
+    <!-- Hero End -->
+
+
+
+    <!-- Feature Start -->
+    <section class="section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 text-center">
+                    <div class="section-title mb-4 pb-2">
+                        <h2 class=" mb-4">Explore our initiative solutions</h2>
+                    </div>
+                </div>
+                <!--end col-->
+            </div>
+
+            <!--end row-->
+
+            <div class="row">
+                <div class="col-md-4 mt-4 pt-2">
+                    <ul class="nav nav-pills nav-justified flex-column bg-white rounded shadow p-3 mb-0 sticky-bar" id="pills-tab" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link rounded active" id="webdeveloping" data-bs-toggle="pill" href="#business" role="tab" aria-controls="developing" aria-selected="false">
+                                <div class="text-center py-1">
+                                    <h6 class="mb-0">Business Development</h6>
+                                </div>
+                            </a>
+                            <!--end nav link-->
+                        </li>
+                        <!--end nav item-->
+
+                        <li class="nav-item mt-2">
+                            <a class="nav-link rounded" id="database" data-bs-toggle="pill" href="#survey" role="tab" aria-controls="data-analise" aria-selected="false">
+                                <div class="text-center py-1">
+                                    <h6 class="mb-0">Surveys</h6>
+                                </div>
+                            </a>
+                            <!--end nav link-->
+                        </li>
+                        <!--end nav item-->
+
+                        <li class="nav-item mt-2">
+                            <a class="nav-link rounded" id="server" data-bs-toggle="pill" href="#market" role="tab" aria-controls="security" aria-selected="false">
+                                <div class="text-center py-1">
+                                    <h6 class="mb-0">Market Reserch</h6>
+                                </div>
+                            </a>
+                            <!--end nav link-->
+                        </li>
+                        <!--end nav item-->
+                    </ul>
+                    <!--end nav pills-->
+                </div>
+                <!--end col-->
+
+                <div class="col-md-8 col-12 mt-4 pt-2">
+                    <div class="tab-content" id="pills-tabContent">
+                        <div class="tab-pane fade bg-white show active p-4 rounded shadow" id="business" role="tabpanel" aria-labelledby="webdeveloping">
+                            <img src="images\Images\3075760.png" class="img-fluid rounded shadow" alt="">
+                            <div class="mt-4">
+                                <p class="text-muted">We create tasks and processes to develop and implement growth opportunities within and between organizations ranging from idea stages to large firms.</p>
+                                <a href="business-development.html" class="text-primary">See More <i class="uil uil-angle-right-b align-middle"></i></a>
+                            </div>
+                        </div>
+                        <!--end teb pane-->
+
+                        <div class="tab-pane fade bg-white p-4 rounded shadow" id="survey" role="tabpanel" aria-labelledby="database">
+                            <img src="images\Images\survey.png" class="img-fluid rounded shadow" alt="">
+                            <div class="mt-4">
+                                <p class="text-muted">Use our Survey to drive your business forward by capturing the voices and opinions of the people who matter most to your business and brand.</p>
+                                <a href="survey-client.html" class="text-primary">See More <i class="uil uil-angle-right-b align-middle"></i></a>
+                            </div>
+                        </div>
+                        <!--end teb pane-->
+
+                        <div class="tab-pane fade bg-white p-4 rounded shadow" id="market" role="tabpanel" aria-labelledby="server">
+                            <img src="images\Images\Section 2.png" class="img-fluid rounded shadow" alt="">
+                            <div class="mt-4">
+                                <p class="text-muted">Discover your business target market and get opinions and other feedback from consumers about their interest in the product or service.</p>
+                                <a href="market-research.html" class="text-primary">See More <i class="uil uil-angle-right-b align-middle"></i></a>
+                            </div>
+                        </div>
+                        <!--end teb pane-->
+                    </div>
+                    <!--end tab content-->
+                </div>
+                <!--end col-->
+            </div>
+            <!--end row-->
+
+
+            <div class="row mt-5">
+                <div class="row justify-content-center">
+                    <div class="col-12 text-center">
+                        <div class="section-title mb-4 pb-2">
+                            <h6 class="title mb-4">Services</h6>
+                        </div>
+                    </div>
+                    <!--end col-->
+                </div>
+                <div class="col-md-4 col-12 mt-5">
+                    <div class="features text-center">
+                        <div class="image position-relative d-inline-block">
+                            <i class="uil uil-puzzle-piece h1 text-primary"></i>
+                        </div>
+
+                        <div class="content mt-4">
+                            <h5>Create a Business Plan</h5>
+                            <p class="text-muted mb-0">Informed decisions from diverse research enables us to help you draw up a business plan that will suit what ever business you may have in mind.</p>
+                        </div>
+                    </div>
+                </div>
+                <!--end col-->
+
+                <div class="col-md-4 col-12 mt-5">
+                    <div class="features text-center">
+                        <div class="image position-relative d-inline-block">
+                            <i class="uil uil-registered h1 text-primary"></i>
+                        </div>
+
+                        <div class="content mt-4">
+                            <h5>Business Registration</h5>
+                            <p class="text-muted mb-0">Register your business either Localy or Internationally.</p>
+                        </div>
+                    </div>
+                </div>
+                <!--end col-->
+
+                <div class="col-md-4 col-12 mt-5">
+                    <div class="features text-center">
+                        <div class="image position-relative d-inline-block">
+                            <i class="uil uil-comparison h1 text-primary"></i>
+                        </div>
+
+                        <div class="content mt-4">
+                            <h5>Idea Validation</h5>
+                            <p class="text-muted mb-0">Get your idea validated and reviewd to set a road map and expectations.</p>
+                        </div>
+                    </div>
+                </div>
+                <!--end col-->
+
+                <div class="col-md-4 col-12 mt-5">
+                    <div class="features text-center">
+                        <div class="image position-relative d-inline-block">
+                            <i class="uil uil-chat-bubble-user h1 text-primary"></i>
+                        </div>
+
+                        <div class="content mt-4">
+                            <h5>Employee Search</h5>
+                            <p class="text-muted mb-0">Every business needs the right employees to help it grow, let us find the right people to grow your business.</p>
+                        </div>
+                    </div>
+                </div>
+                <!--end col-->
+
+                <div class="col-md-4 col-12 mt-5">
+                    <div class="features text-center">
+                        <div class="image position-relative d-inline-block">
+                            <i class="uil uil-calendar-alt h1 text-primary"></i>
+                        </div>
+
+                        <div class="content mt-4">
+                            <h5>Business or Product Lunch</h5>
+                            <p class="text-muted mb-0">The product launch is the first impression the prospective customers will remember . We help to present a positive image of your product or business for user adoption and brand growth.</p>
+                        </div>
+                    </div>
+                </div>
+                <!--end col-->
+
+                <div class="col-md-4 col-12 mt-5">
+                    <div class="features text-center">
+                        <div class="image position-relative d-inline-block">
+                            <i class="uil uil-clock h1 text-primary"></i>
+                        </div>
+
+                        <div class="content mt-4">
+                            <h5>Product and Service Testing</h5>
+                            <p class="text-muted mb-0">By using the basic methods of product testing, we carry out product and service testing to enable us make projections on how a product or service will fare in the market.</p>
+                        </div>
+                    </div>
+                </div>
+                <!--end col-->
+                <div class="col-md-4 col-12 mt-5">
+                    <div class="features text-center">
+                        <div class="image position-relative d-inline-block">
+                            <i class="uil uil-airplay h1 text-primary"></i>
+                        </div>
+
+                        <div class="content mt-4">
+                            <h5>Legal Aid</h5>
+                            <p class="text-muted mb-0">Every business need legal aid to cover the legal end. We make provision for legal documents and also the services of an attorney.</p>
+                        </div>
+                    </div>
+                </div>
+                <!--end col-->
+
+                <div class="col-md-4 col-12 mt-5">
+                    <div class="features text-center">
+                        <div class="image position-relative d-inline-block">
+                            <i class="uil uil-calendar-alt h1 text-primary"></i>
+                        </div>
+
+                        <div class="content mt-4">
+                            <h5>Corporate Website</h5>
+                            <p class="text-muted mb-0">We can create a corporate website that will be a platform where the company's values are clearly reflected to online visitors.</p>
+                        </div>
+                    </div>
+                </div>
+                <!--end col-->
+
+                <div class="col-md-4 col-12 mt-5">
+                    <div class="features text-center">
+                        <div class="image position-relative d-inline-block">
+                            <i class="uil uil-clock h1 text-primary"></i>
+                        </div>
+
+                        <div class="content mt-4">
+                            <h5>Finacial Services</h5>
+                            <p class="text-muted mb-0">Finacial services that aid your business make correct accounts and finacial projections to manage income and expenditure.</p>
+                        </div>
+                    </div>
+                </div>
+                <!--end col-->
+            </div>
+            <!--end row-->
+        </div>
+
+        <!--end container-->
+        <!--end container-->
+
+        <!-- Start -->
+        <section class="section">
+            <div class="row justify-content-center">
+                <div class="col-12 text-center">
+                    <div class="section-title mb-4 pb-2">
+                        <h2 class=" mb-4">You've got #goals. <br> Lets help you meet them.</h2>
+                    </div>
+                </div>
+                <!--end col-->
+            </div>
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 col-md-7">
+                        <img src="images\Images\idea.png" class="img-fluid rounded-md" alt="">
+                    </div>
+                    <!--end col-->
+
+                    <div class="col-lg-6 col-md-5 mt-3 pt-2 mt-sm-0 pt-sm-0">
+                        <div class="section-title text-md-start text-center">
+                            <h4 class="title mb-4">From Business Idea <br> To Business Lunch.</h4>
+                            <div class="row">
+                                <ul class="list-unstyled text-muted ">
+                                    <li class="list-inline-item me-lg-5 me-4"><span class="text-primary h5 me-2"><i class="uil uil-check-circle align-middle"></i></span>Idea Validation</li>
+                                    <li class="list-inline-item me-lg-5 me-4"><span class="text-primary h5 me-2"><i class="uil uil-check-circle align-middle"></i></span>Business Plan</li>
+                                    <li class="list-inline-item me-lg-5 me-4"><span class="text-primary h5 me-2"><i class="uil uil-check-circle align-middle"></i></span>Bussiness Roadmap</li>
+                                    <li class="list-inline-item me-lg-5 me-4"><span class="text-primary h5 me-2"><i class="uil uil-check-circle align-middle"></i></span>Business Setup</li>
+                                    <li class="list-inline-item me-lg-5 me-4"><span class="text-primary h5 me-2"><i class="uil uil-check-circle align-middle"></i></span>Business Registration</li>
+                                    <li class="list-inline-item me-lg-5 me-4"><span class="text-primary h5 me-2"><i class="uil uil-check-circle align-middle"></i></span>Lunching Business</li>
+                                </ul>
+                                <div class="col-12 mt-4 pt-2">
+                                    <a href="javascript:void(0)" class="btn btn-primary">Request Service <i class="uil uil-angle-right"></i></a>
+                                </div>
+                                <!--end col-->
+                            </div>
+                            <!--end row-->
+
+                        </div>
+
+                        <!--end col-->
+                    </div>
+                    <!--end row-->
+                </div>
+            </div>
+            <!--end container-->
+
+            <div class="container mt-100 mt-60">
+                <div class="row align-items-center">
+                    <div class="col-lg-5 col-md-6 order-1 order-md-2">
+                        <div class="text-end">
+                            <img src="images\Images\Section 2 2.png" class="img-fluid rounded-md" alt="">
+                        </div>
+                    </div>
+                    <!--end col-->
+
+                    <div class="col-lg-7 col-md-6 order-2 order-md-1 mt-4 pt-2 mt-sm-0 pt-sm-0">
+                        <div class="section-title text-md-start text-center">
+                            <h4 class="title mb-4">Marketing Reserch <br> For Products and Services</h4>
+                            <div class="row">
+                                <ul class="list-unstyled text-muted ">
+                                    <li class="list-inline-item me-lg-5 me-4"><span class="text-primary h5 me-2"><i class="uil uil-check-circle align-middle"></i></span>Industry Tracker</li>
+                                    <li class="list-inline-item me-lg-5 me-4"><span class="text-primary h5 me-2"><i class="uil uil-check-circle align-middle"></i></span>Usage & Attitudes</li>
+                                    <li class="list-inline-item me-lg-5 me-4"><span class="text-primary h5 me-2"><i class="uil uil-check-circle align-middle"></i></span>Product Analysis</li>
+                                    <li class="list-inline-item me-lg-5 me-4"><span class="text-primary h5 me-2"><i class="uil uil-check-circle align-middle"></i></span>Packaging Analysis</li>
+                                    <li class="list-inline-item me-lg-5 me-4"><span class="text-primary h5 me-2"><i class="uil uil-check-circle align-middle"></i></span>Brand Tracker</li>
+                                    <li class="list-inline-item me-lg-5 me-4"><span class="text-primary h5 me-2"><i class="uil uil-check-circle align-middle"></i></span>Brand Analysis</li>
+                                </ul>
+                                <!--end col-->
+                                <div class="col-12 mt-4 pt-2 text-center">
+                                    <a href="javascript:void(0)" class="btn btn-primary">Find Out More <i class="uil uil-angle-right"></i></a>
+                                </div>
+                                <!--end col-->
+                            </div>
+                            <!--end row-->
+                            <!--end row-->
+                        </div>
+                    </div>
+                    <!--end col-->
+                </div>
+                <!--end row-->
+            </div>
+            <!--end container-->
+
+
+        </section>
+        <!--end section-->
+        <!-- Feature End -->
+    </section>
+
+
+    <!-- Shape Start -->
+    <div class="position-relative">
+        <div class="shape overflow-hidden text-light">
+            <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 48H1437.5H2880V0H2160C1442.5 52 720 0 720 0H0V48Z" fill="currentColor"></path>
+            </svg>
+        </div>
+    </div>
+    <!--Shape End-->
+
+    <!-- Testi Start -->
+    <section class="section bg-light">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-12 text-center">
+                    <div class="page-next-level">
+                        <h4 class="title"> It all starts with a name <br> Start that business idea by creating a name for free </h4>
+
+                        <div class="subcribe-form mt-4 pt-2">
+                            <form>
+                                <div class="mb-0">
+                                    <input type="text" id="help" name="name" class="border bg-white rounded-pill" required="" placeholder="Enter Keywords">
+                                    <button type="submit" class="btn btn-pills btn-primary">Generate</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <!--end col-->
+            </div>
+            <!--end row-->
+        </div>
+        <!--end container-->
+    </section>
+    <!--end section-->
+    <!-- Testi End -->
+
+    <!-- Partners start -->
+    <section class="py-4 border-bottom border-top">
+
+        <div class="container mt-100 mt-60">
+            <div class="card rounded bg-light shadow border-0">
+                <div class="card-body">
+                    <div class="row align-items-center">
+                        <div class="col-sm-7">
+                            <div class="text-sm-start">
+                                <h5 class="mb-0">Tell us about your idea and lets make it a reality.</h5>
+                            </div>
+                        </div>
+                        <!--end col-->
+
+                        <div class="col-sm-5 mt-4 mt-sm-0">
+                            <div class="text-sm-end">
+                                <a href="javascript:void(0)" class="btn btn-outline-primary"><i class="uil uil-file-bookmark-alt"></i> Talk to us </a>
+                            </div>
+                        </div>
+                        <!--end col-->
+                    </div>
+                    <!--end row -->
+                </div>
+            </div>
+        </div>
+        <!--end container-->
+
+        <!--
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-2 col-md-2 col-6 text-center py-4">
+                        <img src="images\Images\justinruby b&w.svg" class="avatar avatar-ex-sm" alt="">
+                    </div>
+                    end col
+
+                    <div class="col-lg-2 col-md-2 col-6 text-center py-4">
+                        <img src="images\Images\Untitled design (5).png" class="avatar avatar-ex-sm" alt="">
+                    </div>
+                    <!--end col
+
+                    <div class="col-lg-2 col-md-2 col-6 text-center py-4">
+                        <img src="images\client\CGNG-1.svg" class="avatar avatar-ex-sm" alt="">
+                    </div>
+                    <!--end col
+
+                    <div class="col-lg-2 col-md-2 col-6 text-center py-4">
+                        <img src="images\client\cropped-small-logo.svg" class="avatar avatar-ex-sm" alt="">
+                    </div>
+                    <!--end col--
+
+                    <div class="col-lg-2 col-md-2 col-6 text-center py-4">
+                        <img src="images\client\IMG-20160621-WA0003-removebg-preview.svg" class="avatar avatar-ex-sm" alt="">
+                    </div>
+                    <!--end col--
+
+                    <div class="col-lg-2 col-md-2 col-6 text-center py-4">
+                        <img src="images\client\Justin_Ruby_Logo-removebg-preview.svg" class="avatar avatar-ex-sm" alt="">
+                    </div>
+                    <!--end col--
+                </div>
+                <!--end row--
+            </div>
+            <!--end container--
+        -->
+    </section>
+    <!--end section-->
+    <!-- Partners End -->
+
+
+    <section class="section">
+        <div class="container">
+            <div class="container mt-100 mt-60">
+                <div class="row align-items-center">
+                    <div class="col-lg-7 col-md-6 col-12">
+                        <div class="section-title">
+                            <h4 class="title mb-4">We're here to help you</h4>
+                            <p class="text-muted para-desc">Set up a virtual meeting with us.<br><span class="text-primary fw-bold">Available Times</span></p>
+                            <ul class="list-unstyled text-muted mt-4">
+                                <li class="mb-0"><span class="text-primary h5 me-2"><i class="uil uil-check-circle align-middle"></i></span>Monday - Friday between 8:00 am to 5:00 pm (GMT +1)</li>
+                                <li class="mb-0"><span class="text-primary h5 me-2"><i class="uil uil-check-circle align-middle"></i></span>Saturday between 10:00 am to 6:00 pm (GMT +1)</li>
+                                <li class="mb-0"><span class="text-primary h5 me-2"><i class="uil uil-check-circle align-middle"></i></span>Saturday between 10:00 am to 6:00 pm (GMT +1)</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-5 col-md-6 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                        <div class="card rounded border-0 shadow-lg ms-lg-5">
+                            <div class="card-body">
+                                <div class="text-center">
+
+                                    <div class="section-title">
+
+                                        <p class="text-muted para-desc mx-auto mb-0">Please fill out this form and we will send you a mail confirming a time and platform for the meeting.</p>
+                                    </div>
+                                </div>
+
+                                <div class="content mt-4 pt-2">
+                                    <form>
+                                        <div class="row">
+                                            <div class="col-lg-12">
+                                                <div class="mb-3">
+                                                    <label class="form-label">Name : <span class="text-danger">*</span></label>
+                                                    <div class="form-icon position-relative">
+                                                        <i data-feather="user" class="fea icon-sm icons"></i>
+                                                        <input type="text" class="form-control ps-5" placeholder="Name" name="name" required="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!--end col-->
+
+                                            <div class="col-lg-12">
+                                                <div class="mb-3">
+                                                    <label class="form-label">Email : <span class="text-danger">*</span></label>
+                                                    <div class="form-icon position-relative">
+                                                        <i data-feather="mail" class="fea icon-sm icons"></i>
+                                                        <input type="email" class="form-control ps-5" placeholder="Email" name="email" required="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!--end col-->
+
+                                            <div class="col-lg-12">
+                                                <div class="mb-3">
+                                                    <label class="form-label">Phone Number : <span class="text-danger">*</span></label>
+                                                    <div class="form-icon position-relative">
+                                                        <i data-feather="mail" class="fea icon-sm icons"></i>
+                                                        <input type="number" class="form-control ps-5" placeholder="Phone Number" name="number" required="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!--end col-->
+
+                                            <div class="col-lg-12 mt-2">
+                                                <div class="d-grid">
+                                                    <button class="btn btn-soft-primary">Request Meeting <i class="uil uil-angle-right-b align-middle"></i></button>
+                                                </div>
+                                            </div>
+                                            <!--end col-->
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--end container-->
+
+            <div class="container mt-100 mt-60">
+                <div class="row">
+                    <div class="col-md-6 col-12">
+                        <div class="d-flex">
+                            <i data-feather="help-circle" class="fea icon-ex-md text-primary me-2 mt-1"></i>
+                            <div class="flex-1">
+                                <h5 class="mt-0">What is <span class="text-primary">Econhut</span>?</h5>
+                                <p class="answer text-muted mb-0">We are a firm that offers business development, market reserch, and surveys services for small and large scale businesses and individuals in Africa.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--end col-->
+
+                    <div class="col-md-6 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                        <div class="d-flex">
+                            <i data-feather="help-circle" class="fea icon-ex-md text-primary me-2 mt-1"></i>
+                            <div class="flex-1">
+                                <h5 class="mt-0"> How does <span class="text-primary">Econhut</span> work ?</h5>
+                                <p class="answer text-muted mb-0"> Once a request is made, we reach out to the client and findout about their business and what they hope to achive and we provide the solutions to meet the demands of the client. <a href="javascript:void(0)" class="text-muted small text-primary">Make a request</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--end col-->
+
+                    <div class="col-md-6 col-12 mt-4 pt-2">
+                        <div class="d-flex">
+                            <i data-feather="help-circle" class="fea icon-ex-md text-primary me-2 mt-1"></i>
+                            <div class="flex-1">
+                                <h5 class="mt-0"> How much do you charge?</h5>
+                                <p class="answer text-muted mb-0">Our pricing plans are competitive and can fit within budgets of any size. <a href="javascript:void(0)" class="text-muted small text-primary">View Pricing & Plans</a>.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--end col-->
+
+                    <div class="col-md-6 col-12 mt-4 pt-2">
+                        <div class="d-flex">
+                            <i data-feather="help-circle" class="fea icon-ex-md text-primary me-2 mt-1"></i>
+                            <div class="flex-1">
+                                <h5 class="mt-0"> Can I request multiple service at onece?</h5>
+                                <p class="answer text-muted mb-0">Yes, you can request as many services as you require for yourself or your business.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--end col-->
+                </div>
+                <!--end row-->
+
+                <div class="row mt-5 pt-md-4 justify-content-center">
+                    <div class="col-12 text-center">
+                        <div class="section-title">
+                            <h4 class="title mb-4">Have Question ? Get in touch!</h4>
+                            <p class="text-muted para-desc mx-auto">We are always available for you, you can contact us or message us on our live chat</p>
+                            <a href="contact-us.html" class="btn btn-primary mt-4"><i class="uil uil-phone"></i> Contact us</a>
+                        </div>
+                    </div>
+                    <!--end col-->
+                </div>
+                <!--end row-->
+            </div>
+            <!--end container-->
+            <!--end container-->
+    </section>
+
+
+
+    <!-- Shape Start -->
+    <div class="position-relative">
+        <div class="shape overflow-hidden text-footer">
+            <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 48H1437.5H2880V0H2160C1442.5 52 720 0 720 0H0V48Z" fill="currentColor"></path>
+                </svg>
+        </div>
+    </div>
+    <!--Shape End-->
+
+    <!-- Modals Start-->
+
+    <div class="modal fade" id="ContactForm" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content rounded shadow border-0">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalCenterTitle">Contact Us</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="row">
+                            <div class="">
+                                <div class="card shadow rounded border-0">
+                                    <div class="card-body py-5">
+                                        <h4 class="card-title">Get In Touch !</h4>
+                                        <div class="custom-form mt-3">
+                                            <form method="post" name="myForm" onsubmit="return validateForm()">
+                                                <p id="error-msg" class="mb-0"></p>
+                                                <div id="simple-msg"></div>
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <div class="mb-3">
+                                                            <label class="form-label">Your Name <span class="text-danger">*</span></label>
+                                                            <div class="form-icon position-relative">
+                                                                <i data-feather="user" class="fea icon-sm icons"></i>
+                                                                <input name="name" id="name" type="text" class="form-control ps-5" placeholder="Name :">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-md-6">
+                                                        <div class="mb-3">
+                                                            <label class="form-label">Your Email <span class="text-danger">*</span></label>
+                                                            <div class="form-icon position-relative">
+                                                                <i data-feather="mail" class="fea icon-sm icons"></i>
+                                                                <input name="email" id="email" type="email" class="form-control ps-5" placeholder="Email :">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!--end col-->
+
+                                                    <div class="col-md-12">
+                                                        <div class="mb-3">
+                                                            <label class="form-label">Reasons / Categories :</label>
+                                                            <select class="form-control custom-select" id="Sortbylist-Shop">
+                                                                    <option>Categories</option>
+                                                                    <option>General Question</option>
+                                                                    <option>Bugs</option>
+                                                                    <option>Remote</option>
+                                                                </select>
+                                                        </div>
+                                                    </div>
+                                                    <!--end col-->
+                                                    <div class="col-12">
+                                                        <div class="mb-3">
+                                                            <label class="form-label">Subject</label>
+                                                            <div class="form-icon position-relative">
+                                                                <i data-feather="book" class="fea icon-sm icons"></i>
+                                                                <input name="subject" id="subject" class="form-control ps-5" placeholder="subject :">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!--end col-->
+
+                                                    <div class="col-12">
+                                                        <div class="mb-3">
+                                                            <label class="form-label">Comments <span class="text-danger">*</span></label>
+                                                            <div class="form-icon position-relative">
+                                                                <i data-feather="message-circle" class="fea icon-sm icons clearfix"></i>
+                                                                <textarea name="comments" id="comments" rows="4" class="form-control ps-5" placeholder="Message :"></textarea>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-12">
+                                                        <div class="d-grid">
+                                                            <button type="submit" id="submit" name="send" class="btn btn-primary">Send Message</button>
+                                                        </div>
+                                                    </div>
+                                                    <!--end col-->
+                                                </div>
+                                                <!--end row-->
+                                            </form>
+                                        </div>
+                                        <!--end custom-form-->
+                                    </div>
+                                </div>
+                            </div>
+                            <!--end col-->
+                        </div>
+                        <!--end row-->
+                    </div>
+                    <!--end container-->
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Modals End-->
+
+
+
+
+    <!-- Footer Start -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-12 mb-0 mb-md-4 pb-0 pb-md-2">
+                    <a href="#" class="logo-footer">
+                        <img src="images\Images\econhut logo dark.png" height="45" alt="">
+                    </a>
+                    <p class="mt-4">Start working with Econhut that can provide everything you need to grow your business.</p>
+                    <ul class="list-unstyled social-icon foot-social-icon mb-0 mt-4">
+                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="facebook" class="fea icon-sm fea-social"></i></a></li>
+                        <li class="list-inline-item"><a href="https://twitter.com/econhut" class="rounded"><i data-feather="twitter" class="fea icon-sm fea-social"></i></a></li>
+                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="linkedin" class="fea icon-sm fea-social"></i></a></li>
+                    </ul>
+                    <!--end icon-->
+                </div>
+                <!--end col-->
+
+                <div class="col-lg-2 col-md-4 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                    <h5 class="text-light footer-head">Company</h5>
+                    <ul class="list-unstyled footer-list mt-4">
+                        <li><a href="about-us.html" class="text-foot"><i class="uil uil-angle-right-b me-1"></i> About us</a></li>
+                        <li><a href="contact-us.html" class="text-foot"><i class="uil uil-angle-right-b me-1"></i> Contact Us</a></li>
+                        <li><a href="cases.html" class="text-foot"><i class="uil uil-angle-right-b me-1"></i> Use Cases</a></li>
+                        <li><a href="careers.html" class="text-foot"><i class="uil uil-angle-right-b me-1"></i> Careers</a></li>
+                        <li><a href="terms-of-use.html" class="text-foot"><i class="uil uil-angle-right-b me-1"></i> Terms of Use</a></li>
+                        <li><a href="privacy-policy.html" class="text-foot"><i class="uil uil-angle-right-b me-1"></i> Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <!--end col-->
+
+                <div class="col-lg-3 col-md-4 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                    <h5 class="text-light footer-head">Resources</h5>
+                    <ul class="list-unstyled footer-list mt-4">
+                        <li><a href="faqs.html" class="text-foot"><i class="uil uil-angle-right-b me-1"></i> FAQ</a></li>
+                        <li><a href="pricing.html" class="text-foot"><i class="uil uil-angle-right-b me-1"></i> Pricing</a></li>
+                        <li><a href="business-development.html" class="text-foot"><i class="uil uil-angle-right-b me-1"></i> Business Development</a></li>
+                        <li><a href="survey-client.html" class="text-foot"><i class="uil uil-angle-right-b me-1"></i> Create Surveys</a></li>
+                        <li><a href="customer-survey.html" class="text-foot"><i class="uil uil-angle-right-b me-1"></i> Take Surveys</a></li>
+                        <li><a href="market-research.html" class="text-foot"><i class="uil uil-angle-right-b me-1"></i> Market Reserch</a></li>
+                    </ul>
+                </div>
+                <!--end col-->
+
+                <div class="col-lg-3 col-md-4 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                    <h5 class="text-light footer-head">Newsletter</h5>
+                    <p class="mt-4">Sign up and receive the latest tips via email.</p>
+                    <form>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="foot-subscribe mb-3">
+                                    <label class="form-label">Write your email <span class="text-danger">*</span></label>
+                                    <div class="form-icon position-relative">
+                                        <i data-feather="mail" class="fea icon-sm icons"></i>
+                                        <input type="email" name="email" id="emailsubscribe" class="form-control ps-5 rounded" placeholder="Your email : " required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="d-grid">
+                                    <input type="submit" id="submitsubscribe" name="send" class="btn btn-soft-primary" value="Subscribe">
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <!--end col-->
+            </div>
+            <!--end row-->
+        </div>
+        <!--end container-->
+    </footer>
+    <!--end footer-->
+    <footer class="footer footer-bar">
+        <div class="container text-center">
+            <div class="row align-items-center">
+                <div class="col-sm-6">
+                    <div class="text-sm-start">
+                        <p class="mb-0">Copyright ©
+                            <script>
+                                document.write(new Date().getFullYear())
+                            </script> Econhut. All Rights Reserved.</p>
+                    </div>
+                </div>
+                <!--end col-->
+            </div>
+            <!--end row-->
+        </div>
+        <!--end container-->
+    </footer>
+    <!--end footer-->
+    <!-- Footer End -->
+
+    <!-- Back to top -->
+    <a href="#" onclick="topFunction()" id="back-to-top" class="btn btn-icon btn-primary back-to-top"><i data-feather="arrow-up" class="icons"></i></a>
+    <!-- Back to top -->
+
+
+
+    <!-- javascript -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- SLIDER -->
+    <script src="js/tiny-slider.js "></script>
+    <!-- Icons -->
+    <script src="js/feather.min.js"></script>
+    <!-- Main Js -->
+    <script src="js/plugins.init.js"></script>
+    <!--Note: All init js like tiny slider, counter, countdown, maintenance, lightbox, gallery, swiper slider, aos animation etc.-->
+    <script src="js/app.js"></script>
+    <!--Note: All important javascript like page loader, menu, sticky menu, menu-toggler, one page menu etc. -->
+</body>
+
+</html>
